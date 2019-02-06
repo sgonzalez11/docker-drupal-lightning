@@ -1,0 +1,22 @@
+uuid: 1c2f8e0a-39f6-4675-9d9a-f11170a123df
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bahamas
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: bahamas_help
+theme: bahamas
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 78f9d5be-cb2c-4b12-92e8-14c21910a29f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bahamas
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: bahamas_content
+theme: bahamas
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

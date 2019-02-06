@@ -1,0 +1,32 @@
+[mysqld]
+# Set character set and collation to utf8mb4.
+#character_set_server = utf8mb4
+#collation_server = utf8mb4_unicode_ci
+max_allowed_packet=524288000
+# Common Configuration
+skip_name_resolve = 1
+connect_timeout = 10
+interactive_timeout = 25
+wait_timeout = 100
+table_open_cache = 2000
+table_definition_cache =  2000
+thread_handling = pool-of-threads
+
+# Query Cache Configuration
+query_cache_limit = 2M
+query_cache_size = 64M
+query_cache_type = 1
+query_cache_min_res_unit = 2K
+
+#Slow Log Configuration
+#slow_query_log = 1
+#slow_query_log_file = /var/log/mysql/mysql_slow_query.log
+#long_query_time = 5
+#log_queries_not_using_indexes = 1
+
+# InnoDB Configuration
+default_storage_engine = innodb
+innodb_buffer_pool_size = 256M
+innodb_flush_method = O_DIRECT
+innodb_file_per_table = 1
+innodb_flush_log_at_trx_commit = 2

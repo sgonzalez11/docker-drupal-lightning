@@ -1,0 +1,14 @@
+uuid: c77e4c67-9ec1-44f0-9e50-01efa6de657e
+name: Bahamas
+mail: sebastian.gonzalez@darwoft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

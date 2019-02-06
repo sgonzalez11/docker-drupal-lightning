@@ -1,0 +1,20 @@
+uuid: e647ffe5-d86d-4a40-bc1b-bd349407e7b6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bahamas
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: bahamas_local_actions
+theme: bahamas
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
